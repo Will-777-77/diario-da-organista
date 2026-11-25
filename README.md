@@ -1,6 +1,6 @@
 # 🎹 Diário da Organista
 
-> Aplicação web para organização e acompanhamento de **aulas de órgão**, conectando professoras e alunas em um ambiente simples, acolhedor e prático.
+> Aplicação web pensada especialmente para **professoras (instrutoras) de órgão da Congregação Cristã no Brasil (CCB)** e suas alunas, facilitando a organização de aulas, presença e planos de estudo em um ambiente simples e acolhedor.
 
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-f472b6?style=flat-square)
 ![React](https://img.shields.io/badge/React-19-61dafb?style=flat-square&logo=react&logoColor=white)
@@ -10,7 +10,7 @@
 
 ## ✨ Sobre o projeto
 
-O **Diário da Organista** nasceu para facilitar a rotina de ensino e estudo de órgão, reunindo em um só lugar a agenda de aulas, o controle de presença, os planos de estudo e o acompanhamento do progresso de cada aluna.
+O **Diário da Organista** nasceu com foco na rotina das **professoras de órgão da igreja CCB (Congregação Cristã no Brasil)**, reunindo em um só lugar a agenda de aulas, o controle de presença, os planos de estudo (métodos, escalas e hinos) e o acompanhamento do progresso de cada aluna.
 
 ---
 
@@ -18,18 +18,18 @@ O **Diário da Organista** nasceu para facilitar a rotina de ensino e estudo de 
 
 ### 🔐 Acesso e Perfis
 - Tela de **Login e Cadastro**
-- Acesso diferenciado para **Professora** e **Aluna**
+- Acesso diferenciado para **Professora (Instrutora)** e **Aluna**
 
 ### 👩‍🏫 Painel da Professora
 - Visão geral com indicadores (alunas ativas, aulas da semana e presença média)
 - Lista de **próximas aulas** e status de confirmação
 - Gestão de **Minhas Alunas** e **Aulas**
-- Criação e acompanhamento de **Planos de Estudo**
+- Criação e acompanhamento de **Planos de Estudo** individuais
 - **Relatórios** de evolução e **Configurações**
 
 ### 🎼 Painel da Aluna
 - Visualização da **próxima aula** com confirmação de presença
-- Checklist interativo do **Plano de Estudos** (ex.: estudos, escalas e prática técnica)
+- Checklist interativo do **Plano de Estudos** (estudos, escalas, métodos e hinos)
 - Acompanhamento de **Minhas Aulas** e **Meu Progresso**
 - Área de **Mensagens** e **Configurações**
 
