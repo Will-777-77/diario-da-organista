@@ -1,16 +1,101 @@
-# React + Vite
+# 🎹 Diário da Organista
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Aplicação web para organização e acompanhamento de **aulas de órgão**, conectando professoras e alunas em um ambiente simples, acolhedor e prático.
 
-Currently, two official plugins are available:
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-f472b6?style=flat-square)
+![React](https://img.shields.io/badge/React-19-61dafb?style=flat-square&logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-8-646cff?style=flat-square&logo=vite&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Sobre o projeto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O **Diário da Organista** nasceu para facilitar a rotina de ensino e estudo de órgão, reunindo em um só lugar a agenda de aulas, o controle de presença, os planos de estudo e o acompanhamento do progresso de cada aluna.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎯 Funcionalidades planejadas
+
+### 🔐 Acesso e Perfis
+- Tela de **Login e Cadastro**
+- Acesso diferenciado para **Professora** e **Aluna**
+
+### 👩‍🏫 Painel da Professora
+- Visão geral com indicadores (alunas ativas, aulas da semana e presença média)
+- Lista de **próximas aulas** e status de confirmação
+- Gestão de **Minhas Alunas** e **Aulas**
+- Criação e acompanhamento de **Planos de Estudo**
+- **Relatórios** de evolução e **Configurações**
+
+### 🎼 Painel da Aluna
+- Visualização da **próxima aula** com confirmação de presença
+- Checklist interativo do **Plano de Estudos** (ex.: estudos, escalas e prática técnica)
+- Acompanhamento de **Minhas Aulas** e **Meu Progresso**
+- Área de **Mensagens** e **Configurações**
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- **[React](https://react.dev/)** — Biblioteca para construção da interface
+- **[Vite](https://vite.dev/)** — Ferramenta de build e servidor de desenvolvimento rápido
+- **[React Router DOM](https://reactrouter.com/)** — Gerenciamento de rotas e navegação entre telas
+- **[Lucide React](https://lucide.dev/)** — Biblioteca de ícones
+- **[ESLint](https://eslint.org/)** — Padronização e análise estática de código
+
+---
+
+## 🚀 Como executar o projeto localmente
+
+### Pré-requisitos
+- [Node.js](https://nodejs.org/) instalado (versão LTS recomendada)
+- [Git](https://git-scm.com/) instalado
+
+### Passo a passo
+
+```bash
+# 1. Clone o repositório
+git clone https://github.com/Will-777-77/diario-da-organista.git
+
+# 2. Acesse a pasta do projeto
+cd diario-da-organista
+
+# 3. Instale as dependências
+npm install
+
+# 4. Inicie o servidor de desenvolvimento
+npm run dev
+```
+
+Depois, abra no navegador o endereço exibido no terminal (geralmente `http://localhost:5173`).
+
+---
+
+## 📜 Scripts disponíveis
+
+| Comando | Descrição |
+| :--- | :--- |
+| `npm run dev` | Inicia o servidor local em modo de desenvolvimento |
+| `npm run build` | Gera a versão otimizada para produção na pasta `dist/` |
+| `npm run preview` | Visualiza localmente a versão gerada pelo build |
+| `npm run lint` | Executa o ESLint para verificar padrões de código |
+
+---
+
+## 📁 Estrutura inicial
+
+```text
+diario-da-organista/
+├── public/          # Arquivos estáticos públicos
+├── src/             # Código-fonte da aplicação React
+│   ├── assets/      # Imagens, ícones e recursos visuais
+│   ├── App.jsx      # Componente principal
+│   └── main.jsx     # Ponto de entrada da aplicação
+├── index.html       # HTML base
+├── package.json     # Dependências e scripts
+└── vite.config.js   # Configuração do Vite
+```
+
+---
+
+Feito com dedicação para a rotina de estudos musicais. 🎶
