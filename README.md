@@ -5,12 +5,15 @@
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-f472b6?style=flat-square)
 ![React](https://img.shields.io/badge/React-19-61dafb?style=flat-square&logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-8-646cff?style=flat-square&logo=vite&logoColor=white)
+![Java](https://img.shields.io/badge/Backend-Java%20(em%20breve)-ed8b00?style=flat-square&logo=openjdk&logoColor=white)
 
 ---
 
 ## ✨ Sobre o projeto
 
 O **Diário da Organista** nasceu com foco na rotina das **professoras de órgão da igreja CCB (Congregação Cristã no Brasil)**, reunindo em um só lugar a agenda de aulas, o controle de presença, os planos de estudo (métodos, escalas e hinos) e o acompanhamento do progresso de cada aluna.
+
+O projeto está sendo estruturado como uma aplicação **full-stack**, com este repositório contendo inicialmente o **front-end em React**, que será integrado a um **back-end em Java**.
 
 ---
 
@@ -37,11 +40,15 @@ O **Diário da Organista** nasceu com foco na rotina das **professoras de órgã
 
 ## 🛠️ Tecnologias utilizadas
 
+### Front-end (em desenvolvimento)
 - **[React](https://react.dev/)** — Biblioteca para construção da interface
 - **[Vite](https://vite.dev/)** — Ferramenta de build e servidor de desenvolvimento rápido
 - **[React Router DOM](https://reactrouter.com/)** — Gerenciamento de rotas e navegação entre telas
 - **[Lucide React](https://lucide.dev/)** — Biblioteca de ícones
 - **[ESLint](https://eslint.org/)** — Padronização e análise estática de código
+
+### Back-end (planejado)
+- **[Java](https://www.java.com/)** — API back-end para autenticação, regras de negócio e persistência dos dados de professoras, alunas, aulas e planos de estudo
 
 ---
 
